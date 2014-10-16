@@ -1,0 +1,28 @@
+{
+  "name": "breakingcode",
+  "version": "0.0.1",
+  "description": "javascript version of code breaker",
+  "main": "src/index",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "keywords": [
+    "codebreak",
+    "game",
+    "coffee-script"
+  ],
+  "directories": { "test": "test/" },
+  "author": "hitoshi.k",
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "espower-loader": "^0.9.1",
+    "gulp": "^3.8.8",
+    "gulp-coffeelint": "^0.4.0",
+    "gulp-istanbul": "^0.3.1",
+    "gulp-mocha": "^1.1.1",
+    "intelli-espower-loader": "^0.4.0",
+    "mocha": "^1.21.5",
+    "power-assert": "^0.9.1"
+  }
+}
