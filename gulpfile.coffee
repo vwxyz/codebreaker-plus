@@ -9,7 +9,7 @@ gulp.task "lint", ->
       "src/*.coffee"
       "test/*.coffee"
     ]
-    .pipe coffeelint(".coffeelint")
+    .pipe coffeelint ".coffeelint"
     .pipe coffeelint.reporter()
 
 gulp.task "coffee-lint"
