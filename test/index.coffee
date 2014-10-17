@@ -16,4 +16,3 @@ describe "Code breaker plus", ->
     q = CBPlus 1234
     g = q.getHint 1234
     assert.equal g, true
-  
